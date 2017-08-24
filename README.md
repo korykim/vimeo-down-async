@@ -67,6 +67,8 @@ switch (exp) {
 ```
 ---
 >node app.js g 216002858 (Get vimeo video quality info)
+
+---
 >node app.js d 216002858 ./mp4 h (Downloading hight quality video to mp4 folder)
 ---
 **Just enjoy it!**
