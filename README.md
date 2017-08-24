@@ -1,6 +1,4 @@
- **This is Vimeo video downloading script!**
----
->The script may not be used in China, unless you have prepared vpn!
+**This is Vimeo video downloading script!**
 ---
 ```
 var vimeos=require('vimeo-down-async');
