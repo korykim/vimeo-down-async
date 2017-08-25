@@ -1,6 +1,6 @@
 {
   "name": "vimeo-down-async",
-  "version": "0.0.21",
+  "version": "0.0.23",
   "description": "Vimeo video downloading",
   "main": "index.js",
   "dependencies": {
