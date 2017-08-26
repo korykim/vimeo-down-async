@@ -22,9 +22,11 @@ switch (exp) {
                           vimeos.vimeodownloading(mp4_id,myArgs[2],myArgs[3])
                                 break;
                             case '-h':
-                                 console.log('(1) node app.js g 216002858  => Get vimeo quality '+'\r\n'
-                                           +'(2) node script.js d ./ h => Downloading wimeo video! '+'\r\n');
+                                 console.log('(1) ./vimeo.out g https://vimeo.com/216002858  => Get vimeo video info '+'\r\n'
+                                           +'(2) ./vimeo.out g 216002858 -p http://yourproxy => Using Proxy Get vimeo video info '+'\r\n'
+                                           +'(3) ./vimeo.out d https://vimeo.com/216002858 ./mp4 h => Downloading vimeo video! '+'\r\n'
+                                           +'(4) ./vimeo.out d 216002858 ./mp4 h -p http://yourproxy => Using Proxy Downloading vimeo video! '+'\r\n');
                                      break;
                                        default:
-                                         console.log('please input (node script.js -h) in command!');
+                                         console.log('please input (./vimeo.out -h) in command!');
 }
